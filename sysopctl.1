@@ -1,0 +1,40 @@
+.TH SYSOPCTL 1 "3 October 2024" "v0.1.0" "sysopctl manual"
+.SH NAME
+sysopctl \- a system management command for Linux
+.SH SYNOPSIS
+.B sysopctl
+.RI [ options ]
+.SH DESCRIPTION
+The sysopctl command is designed to manage system services, processes, and system health on Linux systems.
+.SH OPTIONS
+.TP
+.BR --help
+Displays help information.
+.TP
+.BR --version
+Displays the current version of sysopctl.
+.SH COMMANDS
+.TP
+.BR service " list"
+Lists all active services.
+.TP
+.BR service " start <service-name>"
+Starts a system service.
+.TP
+.BR service " stop <service-name>"
+Stops a system service.
+.TP
+.BR system " load"
+Displays the system load averages.
+.TP
+.BR disk " usage"
+Shows disk usage statistics.
+.TP
+.BR process " monitor"
+Monitors system processes in real-time.
+.TP
+.BR logs " analyze"
+Analyzes recent system logs for critical entries.
+.TP
+.BR backup " <path>"
+Backs up system files.

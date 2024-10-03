@@ -1,0 +1,15 @@
+sysopctl/
+│
+├── sysopctl.sh               # Main script implementing the sysopctl command
+├── functions/
+│   ├── service.sh            # Functions for managing system services
+│   ├── system.sh             # Functions for system load
+│   ├── disk.sh               # Functions for checking disk usage
+│   ├── process.sh            # Functions for process monitoring
+│   ├── logs.sh               # Functions for log analysis
+│   ├── backup.sh             # Functions for system backup
+│
+├── man/
+│   └── sysopctl.1            # Manual page for sysopctl
+│
+└── VERSION                   # Version information file
