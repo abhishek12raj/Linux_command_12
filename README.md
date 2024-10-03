@@ -20,7 +20,7 @@ Place all the code files as per the structure described above:
 sysopctl/
 │
 ├── sysopctl.sh               # Main script
-├── functions/
+├─
 │   ├── service.sh            # Service management
 │   ├── system.sh             # System load
 │   ├── disk.sh               # Disk usage
